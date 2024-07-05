@@ -13,13 +13,13 @@ This is a simple number guessing game implemented in C. The program generates a 
 ![alt text](image.png)
 
 ## Compilation
-To compile the project, run the following command from the root directory:
-make
-the output files after compile
+- To compile the project, run the following command from the root directory:
+- make
+- the output files after compile
 
 ![alt text](image-2.png)
 
-To run the application, write the executable file path
-./build/app.out
+- To run the application, write the executable file path
+- ./build/app.out
 
 ![alt text](image-1.png)
