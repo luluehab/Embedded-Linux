@@ -19,9 +19,10 @@ echo \ then press enter
 ![alt text](image-3.png)
 
 What is the purpose of \ ?
-- the backslash character (\) is used as an escape character
+- the backslash character (\) is used as an escape character (Escape Sequence ==> wildcard)
+- when you need to add a special character (space,*,",[,') in the name of a file or directory so, you have to use the Escape sequence (my file.c ==> my\ file.c) 
 - When you execute the command echo \ followed by pressing Enter, the backslash serves a specific purpose:
-     - indicates that the command continues on the next line, So in the new line you enter what you need to print.
+     - indicates that the command continues on the next line, so you enter what you need to print in the new line.
 
 
 
