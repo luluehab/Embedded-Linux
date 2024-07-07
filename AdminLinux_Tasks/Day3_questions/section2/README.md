@@ -104,14 +104,13 @@ and open new terminal to execute new .bashrc
 - PS1 => "prompt string 1" 
 default seting is: PS1='[\u@\h \W]\$ 
 
-| sequense | description | 
-| \u | current user name |
-| \h | host name |
-| \H | full host name |
-| \w | Current working directory (full path) |
-| \t| Current time in 24-hour HH:MM format |
-| \T| Current time in 12-hour HH:MM format |
-| \$| show # for root and $ for other|
+-  \u => current user name 
+-  \h => host name 
+-  \H => full hostname 
+-  \w => Current working directory (full path) 
+-  \t => Current time in 24-hour HH:MM format 
+-  \T => Current time in 12-hour HH:MM format 
+- \$  => show # for root and $ for other
 
 - PS2: "prompt string 2"  
 used when a command covers several lines.(default: >).
