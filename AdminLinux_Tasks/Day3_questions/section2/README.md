@@ -112,9 +112,11 @@ default seting is: PS1='[\u@\h \W]\$
 -  \T => Current time in 12-hour HH:MM format 
 - \$  => show # for root and $ for other
 
+
 - PS2: "prompt string 2"  
 used when a command covers several lines.(default: >).
 - PS3: "prompt string 3" 
 Prompt used for the select command (default: #? ).
 - PS4: "prompt string 4" 
 Prompt used for debugging (default: +).
+
