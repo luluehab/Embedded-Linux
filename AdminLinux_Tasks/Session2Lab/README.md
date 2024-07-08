@@ -19,24 +19,27 @@ Hint: by piping command
 
 ## STEPS:
 
-1- Creat c files
+1- Create C files
 ![alt text](image.png)
 
 
-2- To know how open file 
+2- To know how to open a file 
 - man open
  open("/sys/class/leds/input::capslock/brightness", O_RDONLY);   
 ![alt text](image-1.png)
 
 
-3- To know how write work
+3- To know how to write work
 - man 2 write
 write(output, &var, 1)
+* `write(output, &var, 1)` and `echo "$var" > output` perform similar functions
+   -  Write()is a system call in the C programming language
+   -  echo "$var" > fd is a shell command used in Unix.
 
 ![alt text](image-2.png)
 
 
-4- To know how read work
+4- To know how to read work
 - man 2 read
 ###### Hint: here we can use fscanf(),
 ###### fscanf() and read() are both functions used to read data from files in C.
