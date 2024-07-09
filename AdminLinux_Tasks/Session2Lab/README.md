@@ -19,6 +19,7 @@ Hint: by piping command
 
 ## STEPS:
 
+
 1- Create C files
 ![alt text](image.png)
 
@@ -29,6 +30,7 @@ Hint: by piping command
 ![alt text](image-1.png)
 
 
+
 3- To know how to write work
 - man 2 write
 write(output, &var, 1)
@@ -36,10 +38,13 @@ write(output, &var, 1)
    -  Write()is a system call in the C programming language
    -  echo "$var" > fd is a shell command used in Unix.
 
+
+
 ![alt text](image-2.png)
 
 
 4- To know how to read work
+
 - man 2 read
 ###### Hint: here we can use fscanf(),
 ###### fscanf() and read() are both functions used to read data from files in C.
@@ -76,4 +81,8 @@ This command will read the current brightness value of the Caps Lock LED and wri
 ![alt text](image-10.png)
 
 
+
 after that the capslock brightness led value will toggle 
+
+
+
