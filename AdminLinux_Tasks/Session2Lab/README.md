@@ -32,7 +32,7 @@ Hint: by piping command
 3- To know how to write work
 - man 2 write
 write(output, &var, 1)
-* `write(output, &var, 1)` and `echo "$var" > output` perform similar functions
+ `write(output, &var, 1)` and `echo "$var" > output` perform similar functions
    -  Write()is a system call in the C programming language
    -  echo "$var" > fd is a shell command used in Unix.
 
